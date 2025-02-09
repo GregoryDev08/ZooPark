@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoo Park - Juguetes</title>
-    <link rel="stylesheet" href="/ZooPark/css/styles.css">
-    <link rel="stylesheet" href="/ZooPark/css/carrito.css">
+    <link rel="stylesheet" href="ZooPark/css/styles.css">
+    <link rel="stylesheet" href="ZooPark/css/carrito.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="ZooPark/favicon.ico" type="image/x-icon">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -77,11 +77,11 @@
     <header>
         <h1>Zoo Park - Juguetes</h1>
         <nav class="menu">
-            <a href="/ZooPark/index.html">Inicio</a>
+            <a href="index.html">Inicio</a>
             <a href="https://youtu.be/CBCOpWkX4gk?si=yOGbk7_diIXsJTUh" target="_blank">Motivacion</a>
             <a href="/Index_Paginas/zoo.html"">Zoológicos</a>
-            <a href="Tienda.html">Tienda</a>
-            <a href="contactos.html">Contacto Y Blog</a>
+            <a href="Index_Paginas/Tienda.html">Tienda</a>
+            <a href="Index_Paginas/contactos.html">Contacto Y Blog</a>
             <div class="cart-icon" onclick="toggleCart()">
                 🛒
                 <span class="cart-count" id="cart-count">0</span>
@@ -93,32 +93,32 @@
         <div class="products">
             <div class="product-card">
                 <h3>Pelota para Perro</h3>
-                <img src="/ZooPark/img/pelota de perro.jpg" alt="Pelota de Perro">
+                <img src="ZooPark/img/pelota de perro.jpg" alt="Pelota de Perro">
                 <p>Pelota resistente para perros. Disponible en colores variados.</p>
                 <p><strong>Precio: $10.00</strong></p>
-                <button onclick="addToCart({ name: 'Pelota para Perro', price: 25, image: '/ZooPark/img/pelota de perro.jpg', description: 'Pelota para perros de todos los colores' })">Agregar al carrito</button>
+                <button onclick="addToCart({ name: 'Pelota para Perro', price: 25, image: 'ZooPark/img/pelota de perro.jpg', description: 'Pelota para perros de todos los colores' })">Agregar al carrito</button>
             </div>
             <div class="product-card">
                 <h3>Rascador para Gato</h3>
-                <img src="/ZooPark/img/Rascador para gato.jpeg" alt="Rascador para Gato">
+                <img src="ZooPark/img/Rascador para gato.jpeg" alt="Rascador para Gato">
                 <p>Rascador de 3 niveles para gatos. Disponible en varios diseños.</p>
                 <p><strong>Precio: $30.00</strong></p>
                 <button onclick="addToCart({ 
                     name: 'Rascador para Gato', 
                     price: 30, 
-                    image: '/ZooPark/img/Rascador para gato.jpeg', 
+                    image: 'ZooPark/img/Rascador para gato.jpeg', 
                     description: 'Rascador de 3 niveles para gatos. Disponible en varios diseños.' 
                 })">Agregar al carrito</button>
             </div>
             <div class="product-card">
                 <h3>Pack de Juguetes para Conejo</h3>
-                <img src="/ZooPark/img/Pack de juegutes para conejos.jpg" alt="Juguetes para Conejos">
+                <img src="ZooPark/img/Pack de juegutes para conejos.jpg" alt="Juguetes para Conejos">
                 <p>Juguete de madera para conejos. Seguro y divertido.</p>
                 <p><strong>Precio: $12.00</strong></p>
                 <button onclick="addToCart({ 
                     name: 'Pack Juguetes para Conejo', 
                     price: 30,
-                    image: '/ZooPark/img/Pack de juegutes para conejos.jpg',
+                    image: 'ZooPark/img/Pack de juegutes para conejos.jpg',
                     description: 'Paquete de juegutes para conejos'})">Agregar al carrito</button>
             </div>
         </div>
