@@ -1,18 +1,4 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('../ZooPark/img/zooleo.jpg') no-repeat center center fixed;
-    background-size: cover;
-    size: 10px;
-    color: #2c2929;
-    text-shadow: 2px 2px 9px rgb(235, 236, 235);
-    margin: auto;
-    text-align: center;
-}
-
 header {
-
     color: white;
     text-align: center;
     padding: 20px;
@@ -20,8 +6,15 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 0px 4px 10px rgba(255, 16, 16, 0.5);
+    background-image: url('../ZooPark/img/nieve.gif'); /* Ruta corregida */
+}
 
-    background-image: url(ZooPark/img/nieve.gif);
+nav {
+    background: rgba(91, 13, 216, 0.9);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-image: url('../ZooPark/img/nieve.gif'); /* Ruta corregida */
 }
 
 nav {
