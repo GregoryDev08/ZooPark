@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Park - Tienda</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/ZooPark/css/styles.css">
+    <link rel="stylesheet" href="/ZooPark/css/carrito.css"> <!-- Incluir carrito.css -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            background-color: #388E3C;
+            padding: 0.5rem 0;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .category-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .category-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .category-card h3 {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zoo Park - Tienda</h1>
+    <nav class="menu">
+        <a href="/ZooPark/index.html">Inicio</a>
+        <a href="https://youtu.be/CBCOpWkX4gk?si=yOGbk7_diIXsJTUh">Motivacion</a>
+        <a href="/Index_Paginas/zoo.html"">Zoológicos</a>
+        <a href="Tienda.html" class="active">Tienda</a>
+        <a href="contactos.html">Contacto y Blog</a>
+        <div class="cart-icon" onclick="toggleCart()">
+            🛒
+            <span class="cart-count" id="cart-count">0</span>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <h2>Categorías de Productos</h2>
+    <div class="categories">
+        <div class="category-card" onclick="window.location.href='camisas.html'">
+            <img src="/ZooPark/img/Camisa leon.jpg" alt="Camisas">
+            <h3>Camisas</h3>
+            <p>Descubre nuestras camisas con estampados de animales únicos.</p>
+        </div>
+        <div class="category-card" onclick="window.location.href='ropa-animales.html'">
+            <img src="/ZooPark/img/ropa de animales.jpeg " alt="Ropa">
+            <h3>Ropa para Animales</h3>
+            <p>Encuentra ropa cómoda y estilizada para tus mascotas.</p>
+        </div>
+        <div class="category-card" onclick="window.location.href='juguetes.html'">
+            <img src="/ZooPark/img/Juguetes para animales.jpg" alt="Juguetes">
+            <h3>Juguetes</h3>
+            <p>Juguetes divertidos para tus mascotas.</p>
+        </div>
+        <div class="category-card" onclick="window.location.href='accesorios.html'">
+            <img src="/ZooPark/img/accesorios.jpg" alt="Accesorios">
+            <h3>Accesorios</h3>
+            <p>Complementa tu estilo con nuestros accesorios temáticos.</p>
+        </div>
+    </div>
+</main>
+
+<!-- Modal del carrito -->
+<div class="cart-modal" id="cart-modal">
+    <h2>Carrito de Compras</h2>
+    <div id="cart-items"></div>
+    <p id="cart-empty" style="display: none;">Tu carrito está vacío.</p>
+    <button id="checkout-button" style="display: none;" onclick="checkout()">Finalizar Compra</button>
+</div>
+
+<footer>
+    <p>&copy; Todos los derechos reservados - 2025 | ZooPark</p>
+</footer>
+
+<!-- Incluir el archivo carrito.js -->
+<script src="/js/carrito.js"></script>
+
+</body>
+</html>

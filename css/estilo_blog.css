@@ -1,0 +1,10 @@
+.formulario{
+    background: coral;
+    color: gray;
+    margin: auto;   
+}
+::placeholder{
+    color: black;
+    border-radius: 20px;
+    
+}

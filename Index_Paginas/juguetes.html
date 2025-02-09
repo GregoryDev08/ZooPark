@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Park - Juguetes</title>
+    <link rel="stylesheet" href="/ZooPark/css/styles.css">
+    <link rel="stylesheet" href="/ZooPark/css/carrito.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            background-color: #388E3C;
+            padding: 0.5rem 0;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .product-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .product-card button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        .product-card button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zoo Park - Juguetes</h1>
+        <nav class="menu">
+            <a href="/ZooPark/index.html">Inicio</a>
+            <a href="https://youtu.be/CBCOpWkX4gk?si=yOGbk7_diIXsJTUh" target="_blank">Motivacion</a>
+            <a href="/Index_Paginas/zoo.html"">Zoológicos</a>
+            <a href="Tienda.html">Tienda</a>
+            <a href="contactos.html">Contacto Y Blog</a>
+            <div class="cart-icon" onclick="toggleCart()">
+                🛒
+                <span class="cart-count" id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Juguetes para Animales</h2>
+        <div class="products">
+            <div class="product-card">
+                <h3>Pelota para Perro</h3>
+                <img src="/ZooPark/img/pelota de perro.jpg" alt="Pelota de Perro">
+                <p>Pelota resistente para perros. Disponible en colores variados.</p>
+                <p><strong>Precio: $10.00</strong></p>
+                <button onclick="addToCart({ name: 'Pelota para Perro', price: 25, image: '/ZooPark/img/pelota de perro.jpg', description: 'Pelota para perros de todos los colores' })">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <h3>Rascador para Gato</h3>
+                <img src="/ZooPark/img/Rascador para gato.jpeg" alt="Rascador para Gato">
+                <p>Rascador de 3 niveles para gatos. Disponible en varios diseños.</p>
+                <p><strong>Precio: $30.00</strong></p>
+                <button onclick="addToCart({ 
+                    name: 'Rascador para Gato', 
+                    price: 30, 
+                    image: '/ZooPark/img/Rascador para gato.jpeg', 
+                    description: 'Rascador de 3 niveles para gatos. Disponible en varios diseños.' 
+                })">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <h3>Pack de Juguetes para Conejo</h3>
+                <img src="/ZooPark/img/Pack de juegutes para conejos.jpg" alt="Juguetes para Conejos">
+                <p>Juguete de madera para conejos. Seguro y divertido.</p>
+                <p><strong>Precio: $12.00</strong></p>
+                <button onclick="addToCart({ 
+                    name: 'Pack Juguetes para Conejo', 
+                    price: 30,
+                    image: '/ZooPark/img/Pack de juegutes para conejos.jpg',
+                    description: 'Paquete de juegutes para conejos'})">Agregar al carrito</button>
+            </div>
+        </div>
+    </main>
+
+   <!-- Modal del carrito -->
+<div class="cart-modal" id="cart-modal">
+    <h2>Carrito de Compras</h2>
+    <div id="cart-items"></div>
+    <p id="cart-empty" style="display: none;">Tu carrito está vacío.</p>
+    <button id="checkout-button" style="display: none;" onclick="checkout()">Finalizar Compra</button>
+</div>
+
+    <footer>
+        <p>&copy; Todos los derechos reservados - 2025 | ZooPark</p>
+    </footer>
+
+    <script src="/js/carrito.js"></script>
+</body>
+</html>

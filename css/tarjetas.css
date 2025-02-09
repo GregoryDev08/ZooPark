@@ -1,0 +1,380 @@
+/*LOGO ZOOPARK*/
+
+/*CAPIBARA*/
+.Cap{
+    width:20px ;
+    height:20px;
+}
+
+/*BOTON FRANK*/
+.Frank{
+    border-radius:40px;
+    width:100px; 
+    height:100px;
+    
+
+}
+.Title_Frank{
+    background: #ccc;
+    background: linear-gradient(rgb(23, 131, 177),rgb(22, 227, 227),rgb(229, 227, 227));
+    font-family: system-ui;
+
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 1px 2px 2px rgb(170, 164, 164);
+
+
+}
+
+.F{
+    size: 900%;
+    text-align: center;
+}
+/*SANTUARIO ZOO Y ALGO MAS*/
+.Santuario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-right: 50px;
+    text-align: left;
+    
+    
+
+}
+.Santuario_T{
+    background: #ccc;
+    background: linear-gradient(rgb(7, 58, 198),rgb(16, 143, 234),gray);
+    font-family: system-ui;
+    font-size: 3rem;
+    line-height: 90%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: justify;
+    font-size: 9px;
+
+}
+
+/*FIN SANTUARIO*/
+
+/*ANIMALES TARJETA POSTERIOR*/
+.Principal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 40px ;
+    --background: coral;
+    --padding-top: 150px;
+    margin: auto;
+    --border-radius: 20px;
+    mix-blend-mode: darken;
+    
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: var(--padding-top);
+    font-size: 20px;
+    padding: 10px;
+    background: var(--background);
+    border-radius: var(--border-radius); 
+    border-color:  aqua;
+    
+}
+.Nevile{
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.Cibeta{
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.Guacamayos{
+    background: #ccc;
+    background: linear-gradient(rgb(7, 58, 198),rgb(16, 143, 234),gray);
+    font-family: system-ui;
+    font-size: 4rem;
+    line-height: 115%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.Perry{
+    /*Para hacer un degradado de texto*/
+    background: #ccc;
+    background: linear-gradient(rgb(10, 190, 190),rgb(153, 150, 150),blue);
+    font-family: system-ui;
+    font-size: 4rem;
+    line-height: 115%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*Hasta aqui*/ 
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.Hipogrifo{
+        /*Para hacer un degradado de texto*/
+        background: #ccc;
+        background: linear-gradient(rgb(228, 103, 41),rgb(236, 51, 51),gray);
+        font-family: system-ui;
+        font-size: 4rem;
+        line-height: 115%;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        /*Hasta aqui*/
+  
+        text-align: justify;
+        font-size: 10px;
+        padding-right: 10px;
+}
+.Chispas{
+        /*Para hacer un degradado de texto*/
+        background: #ccc;
+        background: linear-gradient(rgb(141, 52, 8),rgb(68, 249, 209),gray);
+        font-family: system-ui;
+        font-size: 4rem;
+        line-height: 115%;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+ 
+        text-align: justify;
+        font-size: 10px;
+        padding-right: 10px;
+
+
+}
+
+.Slow{
+    background: #ccc;
+    background: linear-gradient(rgb(187, 115, 79),rgb(28, 235, 118),rgb(203, 65, 65));
+    font-family: system-ui;
+    font-size: 4rem;
+    line-height: 115%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.Erizo{
+    background: #ccc;
+    background: linear-gradient(rgb(187, 115, 79),rgb(28, 235, 118),rgb(203, 65, 65));
+    font-family: system-ui;
+    font-size: 4rem;
+    line-height: 115%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+
+}
+.Emmi{
+    background: #ccc;
+    background: linear-gradient(rgb(30, 217, 217),rgb(194, 193, 192),rgb(24, 215, 240));
+    font-family: system-ui;
+    font-size: 4rem;
+    line-height: 115%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.Luffy{
+    background: #ccc;
+    background: linear-gradient(yellow, red);
+    font-family: system-ui;
+    font-size: 4rem;
+    line-height: 115%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: justify;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+/*HASTA AQUI*/
+
+
+.Imagen{
+    display: block;
+    width: 100px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+body{
+    --card-color: rgb(243, 230, 230);
+    --card-bg-color:rgba(204, 189, 189, 0.6);
+
+}
+
+/* Tarjetas reversibles */
+/*TARJETA DE FONDO*/
+.card {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    margin: 50px auto;
+    background:var(--card-bg-color);
+    padding-top: -50px;
+    
+
+}
+
+
+.card_inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    /*MIENTRAS MAS BAJA LA PERSPECTIVA MAS 
+    ABRUMA EL GIRO
+    MIENTRAS MAS ALTA MENORA LA ALTURA DEL GIRO*/ 
+
+}
+
+/*Para transformar el gito */
+.card:hover .card_inner {
+    transform:perspective(900px) rotateY(180deg);
+    
+}
+
+/* Lado frontal */
+.card_frontal, .card_posterior {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*ROTAR CARAS*/
+    backface-visibility: hidden;
+    
+}
+
+.card_frontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_frontal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Lado posterior */
+.card_posterior {
+    background-color: var(--card-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+
+
+
+
+/*AQUI*/
+
+.Imagenes{
+    width: 100px;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+/* Estilos para la galería */
+.galeria_ubi {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta principal */
+.card_Principal {
+    width: 300px; /* Ajuste de tamaño */
+    height: 180px;
+    perspective: 1000px; /* Necesario para el efecto 3D */
+    margin: auto;
+}
+
+/* Contenedor de la tarjeta con efecto de giro */
+.card_inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Efecto de giro al pasar el mouse */
+.card_Principal:hover .card_inner {
+    transform: rotateY(180deg);
+}
+
+/* Caras de la tarjeta */
+.card_Frontal_Ubicacion,
+.card_Posterior_Ubicacion {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Lado frontal */
+.card_Frontal_Ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--card-bg-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen dentro de la tarjeta */
+.card_Frontal_Ubicacion .card_Wolker img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Información de la tarjeta */
+.card_data_Ubicacion {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Lado posterior */
+.card_Posterior_Ubicacion {
+    background-color: var(--card-color);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg); /* Para que empiece volteado */
+    padding: 15px;
+}
