@@ -86,7 +86,7 @@ function checkout() {
 
         // Redirigir a una página de agradecimiento o resumen de compra
         alert('¡Gracias por tu compra! Serás redirigido a la página de inicio.');
-        window.location.href = '/ZooPark/index.html'; // Cambia 'index.html' por la página que desees
+        window.location.href = 'index.html'; // Cambia 'index.html' por la página que desees
     }
 }
 
