@@ -29,7 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index:9999;
-    background-image: url('/ZooPark/img/nieve.gif');
+    background-image: url('ZooPark/img/nieve.gif');
 }
 .btn-menu{display: none;}
 .menu .logobox{margin-left: 30px;}
@@ -57,7 +57,7 @@ body{
 
 /** Img header **/
 .img-header{
-    background: url('/ZooPark/img/Animales_Fantasticos.jpg');
+    background: url('ZooPark/img/Animales_Fantasticos.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -77,7 +77,7 @@ body{
     align-items: center;
     flex-direction: column;
     /*AQUI EL GIF*/
-    background-image: url('/ZooPark/img/nieve.gif');
+    background-image: url('ZooPark/img/nieve.gif');
     background-position: center;
  
 }
@@ -165,7 +165,7 @@ body{
     background: coral;
     padding:30px;
     /*COntenido gratis*/
-    background-image: url('/ZooPark/img/Aurora.gif');
+    background-image: url('ZooPark/img/Aurora.gif');
     background-size: cover;
     background-position: 0px;
 }
@@ -234,7 +234,7 @@ footer{
     margin-top: 100px;
     background: #000;
     background:rgb(26, 220, 234);
-    background-image: url('/ZooPark/img/nieve.gif');
+    background-image: url('ZooPark/img/nieve.gif');
 }
 footer p{
     text-align: center;
