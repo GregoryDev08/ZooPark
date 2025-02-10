@@ -12,6 +12,7 @@ function toggleCart() {
 
 // Función para agregar un producto al carrito
 function addToCart(product) {
+    console.log("Adding product to cart:", product);
     let existingProduct = cart.find(item => item.name === product.name);
     if (existingProduct) {
         existingProduct.quantity += 1;
@@ -19,6 +20,7 @@ function addToCart(product) {
         product.quantity = 1;
         cart.push(product);
     }
+    console.log("Updated cart:", cart);
     localStorage.setItem('cart', JSON.stringify(cart));
     updateCartDisplay();
 }
