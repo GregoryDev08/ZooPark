@@ -6,8 +6,8 @@
     <title>Zoo Park - Ropa para Animales</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/carrito.css"> <!-- Incluir carrito.css -->
+    <link rel="stylesheet" href="/ZooPark/css/styles.css">
+    <link rel="stylesheet" href="/ZooPark/css/carrito.css"> <!-- Incluir carrito.css -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="ZooPark/favicon.ico" type="image/x-icon">
     <style>
@@ -82,9 +82,9 @@
     <nav class="menu">
         <a href="ZooPark/index.html">Inicio</a>
         <a href="https://youtu.be/CBCOpWkX4gk?si=yOGbk7_diIXsJTUh" target="_blank">Motivacion</a>
-        <a href="Index_Paginas/zoo.html"">Zoológicos</a>
-        <a href="Index_Paginas/Tienda.html">Tienda</a>
-        <a href="Index_Paginas/contactos.html">Contacto y Blog</a>
+        <a href="/ZooPark/Index_Paginas/zoo.html"">Zoológicos</a>
+        <a href="/ZooPark/Index_Paginas/Tienda.html">Tienda</a>
+        <a href="/ZooPark/Index_Paginas/contactos.html">Contacto y Blog</a>
         <div class="cart-icon" onclick="toggleCart()">
             🛒
             <span class="cart-count" id="cart-count">0</span>
@@ -97,24 +97,24 @@
     <div class="products">
         <div class="product-card">
             <h3>Chaqueta para Perro</h3>
-            <img src="ZooPark/img/chaqueta de perro.jpg" alt="Chaqueta para Perro">
+            <img src="../ZooPark/img/chaqueta de perro.jpg" alt="Chaqueta para Perro">
             <p>Chaqueta abrigada para perros. Disponible en tallas S, M, L.</p>
             <p><strong>Precio: $25.00</strong></p>
-            <button onclick="addToCart({ name: 'Chaqueta para Perro', price: 25, image: 'ZooPark/img/chaqueta de perro.jpg', description: 'Chaqueta abrigada para perros. Disponible en tallas S, M, L.' })">Agregar al carrito</button>
+            <button onclick="addToCart({ name: 'Chaqueta para Perro', price: 25, image: '../ZooPark/img/chaqueta de perro.jpg', description: 'Chaqueta abrigada para perros. Disponible en tallas S, M, L.' })">Agregar al carrito</button>
         </div>
         <div class="product-card">
             <h3>Vestido para Gato</h3>
-            <img src="ZooPark/img/vestido gata .jpg" alt="Vestido para Gato">
+            <img src="../ZooPark/img/vestido gata .jpg" alt="Vestido para Gato">
             <p>Vestido elegante para gatos. Disponible en tallas S, M.</p>
             <p><strong>Precio: $18.00</strong></p>
-            <button onclick="addToCart({ name: 'Vestido para Gato', price: 18, image: 'ZooPark/img/vestido gata .jpg', description: 'Vestido elegante para gatos. Disponible en tallas S, M.' })">Agregar al carrito</button>
+            <button onclick="addToCart({ name: 'Vestido para Gato', price: 18, image: '../ZooPark/img/vestido gata .jpg', description: 'Vestido elegante para gatos. Disponible en tallas S, M.' })">Agregar al carrito</button>
         </div>
         <div class="product-card">
             <h3>Suéter para Conejo</h3>
-            <img src="ZooPark/img/sueter para conejo.jpg" alt="Suéter para Conejo">
+            <img src="../ZooPark/img/sueter para conejo.jpg" alt="Suéter para Conejo">
             <p>Suéter cómodo para conejos. Disponible en talla única.</p>
             <p><strong>Precio: $15.00</strong></p>
-            <button onclick="addToCart({ name: 'Suéter para Conejo', price: 15, image: 'ZooPark/img/sueter para conejo.jpg', description: 'Suéter cómodo para conejos. Disponible en talla única.' })">Agregar al carrito</button>
+            <button onclick="addToCart({ name: 'Suéter para Conejo', price: 15, image: '../ZooPark/img/sueter para conejo.jpg', description: 'Suéter cómodo para conejos. Disponible en talla única.' })">Agregar al carrito</button>
         </div>
     </div>
 </main>
@@ -132,7 +132,7 @@
 </footer>
 
 <!-- Incluir el archivo carrito.js -->
-<script src="js/carrito.js"></script>
+<script src="/js/carrito.js"></script>
 
 </body>
 </html>
