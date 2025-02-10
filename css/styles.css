@@ -57,7 +57,7 @@ body{
 
 /** Img header **/
 .img-header{
-    background: url("/ZooPark/img/Animales_Fantasticos.jpg");
+    background: url("/ZooPark/img/Animales_Fantasticos.jpg") center center / cover no-repeat, rgba(0,0,0,0.6);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
