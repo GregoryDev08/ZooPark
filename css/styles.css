@@ -57,7 +57,7 @@ body{
 
 /** Img header **/
 .img-header{
-    background: url("ZooPark/img/Animales_Fantasticos.jpg");
+    background: url(/ZooPark/img/Animales_Fantasticos.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -165,7 +165,7 @@ body{
     background: coral;
     padding:30px;
     /*COntenido gratis*/
-    background-image: url('ZooPark/img/Aurora.gif');
+    background-image: url(/ZooPark/img/Aurora.gif);
     background-size: cover;
     background-position: 0px;
 }
