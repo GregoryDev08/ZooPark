@@ -157,6 +157,12 @@ body{
 
 }
 
+.product-card img {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Opcional: para bordes redondeados */
+}
+
 /*MENU DE CONTENIDO LIBRE O CUADRO ANARANJADO*/
 .about-us .free-content{
     width: 100%;
